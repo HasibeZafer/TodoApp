@@ -47,6 +47,10 @@ public class Application {
 			
 			TodoHelper.remove(Integer.parseInt(param)-1);
 			break;
+			
+		case 4:
+			index = Integer.parseInt(param);
+			TodoHelper.mark(index-1 , false);
 
 		default:
 			break;
